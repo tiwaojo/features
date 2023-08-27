@@ -1,0 +1,20 @@
+{
+    "name": "MCAP",
+    "id": "mcap-cli",
+    "version": "1.0.0",
+    "description": "Install MCAP-cli built from source",
+    "options": {
+        "version": {
+            "type": "string",
+            "proposals": [
+                "latest",
+                "v0.0.34"
+            ],
+            "default": "latest",
+            "description": "Select or enter your own MCAP-cli version"
+        }
+    },
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/common-utils"
+    ]
+}

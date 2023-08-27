@@ -1,9 +1,9 @@
 {
-    "hello": {
+    "install_mcap_32": {
         "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
         "features": {
-            "hello": {
-                "greeting": "hello"
+            "mcap": {
+                "version": "v0.0.32"
             }
         }
     }
