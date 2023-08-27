@@ -14,6 +14,13 @@
             "description": "Select or enter your own MCAP-cli version"
         }
     },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "mcap-cli-vscode.mcap-cli-vscode"
+            ]
+        }
+    },
     "installsAfter": [
         "ghcr.io/devcontainers/features/common-utils"
     ]
