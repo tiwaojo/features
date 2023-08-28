@@ -24,8 +24,13 @@ if [ "${VERSION}" = "latest" ]; then
 	versionStr=$(curl https://api.github.com/repos/foxglove/mcap/releases/latest | jq -r '.tag_name')
 	
 	# if versionStr matches 'releases/mcap-cli/' then remove 'releases/mcap-cli/' from versionStr
-	versionStr=$(echo ${versionStr} | sed 's/releases\/mcap-cli\///g')
-	echo "Latest version: ${versionStr}"
+	if [[ ${versionStr} =~ ^releases\/mcap-cli\/ ]]; then
+			versionStr=$(echo ${versionStr} | sed 's/releases\/mcap-cli\///g')
+			echo "Latest version: ${versionStr}"
+		else
+			echo "Setting version to v0.0.34 because the version provided does not match the format of a release version in the GitHub "
+			versionStr=v0.0.34
+	fi
 
 else
 	versionStr=${VERSION}
