@@ -1,15 +1,13 @@
 
-# Hello, World! (hello)
+# MCAP (mcap-cli)
 
-A hello world feature
+Install MCAP-cli built from source
 
 ## Example Usage
 
 ```json
 "features": {
-    "ghcr.io/devcontainers/feature-starter/hello:1": {
-        "version": "latest"
-    }
+    "ghcr.io/tiwaojo/features/mcap-cli:1": {}
 }
 ```
 
@@ -17,10 +15,16 @@ A hello world feature
 
 | Options Id | Description | Type | Default Value |
 |-----|-----|-----|-----|
-| greeting | Select a pre-made greeting, or enter your own | string | hey |
+| version | Select or enter your own MCAP-cli version | string | latest |
+
+## Customizations
+
+### VS Code Extensions
+
+- `mcap-cli-vscode.mcap-cli-vscode`
 
 
 
 ---
 
-_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/devcontainers/feature-starter/blob/main/src/hello/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
+_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/tiwaojo/features/blob/main/src/mcap/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
