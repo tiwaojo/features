@@ -28,8 +28,8 @@ if [ "${VERSION}" = "latest" ]; then
 			versionStr=$(echo ${versionStr} | sed 's/releases\/mcap-cli\///g')
 			echo "Latest version: ${versionStr}"
 		else
-			echo "Setting version to v0.0.34 because the version provided does not match the format of a release version in the GitHub "
-			versionStr=v0.0.34
+			echo "Setting version to v0.0.42 because the version provided does not match the format of a release version in the GitHub "
+			versionStr=v0.0.42
 	fi
 
 else

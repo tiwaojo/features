@@ -1,14 +1,14 @@
 {
     "name": "MCAP",
     "id": "mcap-cli",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Install MCAP-cli built from source",
     "options": {
         "version": {
             "type": "string",
             "proposals": [
                 "latest",
-                "v0.0.34"
+                "v0.0.42"
             ],
             "default": "latest",
             "description": "Select or enter your own MCAP-cli version"
@@ -17,7 +17,7 @@
     "customizations": {
         "vscode": {
             "extensions": [
-                "mcap-cli-vscode.mcap-cli-vscode"
+                "promethus.mcap-cli-vscode"
             ]
         }
     },
