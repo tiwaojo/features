@@ -1,7 +1,7 @@
 {
     "name": "MCAP",
     "id": "mcap-cli",
-    "version": "1.0.1",
+    "version": "1.1.0",
     "description": "Install MCAP-cli built from source",
     "options": {
         "version": {
