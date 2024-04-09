@@ -2,7 +2,7 @@
     "install_mcap_32": {
         "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
         "features": {
-            "mcap": {
+            "mcap-cli": {
                 "version": "v0.0.32"
             }
         }
