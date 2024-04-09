@@ -9,6 +9,6 @@ Installs the `mcap` cli tool into the devcontainer from [source](https://github.
 
 ```json
 "features": {
-  "ghcr.io/tiwaojo/features/mcap:latest": {}
+  "ghcr.io/tiwaojo/features/mcap-cli:latest": {}
 }
 ```
