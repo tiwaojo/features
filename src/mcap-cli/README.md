@@ -21,10 +21,10 @@ Install MCAP-cli built from source
 
 ### VS Code Extensions
 
-- `mcap-cli-vscode.mcap-cli-vscode`
+- `promethus.mcap-cli-vscode`
 
 
 
 ---
 
-_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/tiwaojo/features/blob/main/src/mcap/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
+_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/tiwaojo/features/blob/main/src/mcap-cli/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
