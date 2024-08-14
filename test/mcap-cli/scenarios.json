@@ -6,5 +6,11 @@
                 "version": "v0.0.32"
             }
         }
+    },
+    "install_mcap_latest": {
+        "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+        "features": {
+            "mcap-cli": {}
+        }
     }
 }
