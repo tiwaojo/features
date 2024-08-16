@@ -1,8 +1,8 @@
 {
-    "name": "MCAP",
+    "name": "MCAP (via GitHub Releases)",
     "id": "mcap-cli",
     "version": "1.0.2",
-    "description": "Install MCAP-cli built from source",
+    "description": "Install MCAP-cli useful for working with MCAP files",
     "options": {
         "version": {
             "type": "string",
