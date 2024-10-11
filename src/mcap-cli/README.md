@@ -1,7 +1,7 @@
 
-# MCAP (mcap-cli)
+# MCAP (via GitHub Releases) (mcap-cli)
 
-Install MCAP-cli useful for working with MCAP files. See https://mcap.dev/guides/cli for more info.
+Install MCAP-cli useful for working with MCAP files
 
 ## Example Usage
 
